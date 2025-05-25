@@ -22,5 +22,5 @@
 
 - In your own PC / Laptop
 - You can also buy One - Click Node :
--- Mintair
--- Easynode
+- Mintair
+- Easynode
