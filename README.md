@@ -80,7 +80,4 @@ source ~/.bashrc
 aztec
 ```
 
-# Step 6 : Install Aztec Alpha :
-```bash
-aztec-up alpha-testnet
-```
+# Step 
