@@ -2,4 +2,5 @@
 # Guide : How to Run Aztec Sequential Node 
 ----------------------------------------
 
-## System Requirement
+## System Requirement :-
+---------------------------------------
