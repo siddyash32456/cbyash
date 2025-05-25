@@ -25,3 +25,7 @@
 - [Mintair](https://www.mintair.xyz/dashboard) 
 - [Easynode](https://app.easy-node.xyz/)
 - VPS
+
+## 4. Run Node : 
+--------------------------
+# Step 1 : Update (Install) Packages :
