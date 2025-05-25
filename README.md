@@ -65,3 +65,12 @@ sudo systemctl enable docker
 sudo systemctl restart docker
 ```
 
+# Step 4 : Install Aztec Node :
+```bash
+bash -i <(curl -s https://install.aztec.network)
+```
+```bash
+echo 'export PATH="$HOME/.aztec/bin:$PATH"' >> ~/.bashrc
+
+source ~/.bashrc
+```
