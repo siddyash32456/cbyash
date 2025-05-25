@@ -80,4 +80,51 @@ source ~/.bashrc
 aztec
 ```
 
-# Step 
+# Step 6 : Install Alpha testnet :
+```bash
+aztec-up alpha-testnet
+```
+
+# Step 7 : Get your IP :
+```bash
+curl ipv4.icanhazip.com
+```
+
+# Step 8 : Firewall & Ports :
+```bash
+# Firewall
+ufw allow 22
+ufw allow ssh
+ufw enable
+
+# Sequencer
+ufw allow 40400
+ufw allow 8080
+```
+
+# Node Installation via CLI
+## 1. Open Screen :
+```bash
+screen -S aztec
+```
+
+## 2. Run Node :
+```bash
+aztec start --node --archiver --sequencer \
+  --network alpha-testnet \
+  --l1-rpc-urls RPC_URL  \
+  --l1-consensus-host-urls BEACON_URL \
+  --sequencer.validatorPrivateKey 0xYourPrivateKey \
+  --sequencer.coinbase 0xYourAddress \
+  --p2p.p2pIp IP
+  --p2p.maxTxPoolSize 1000000000
+```
+
+## 3. Find your synced block number :
+```bash
+curl -s -X POST -H 'Content-Type: application/json' \
+-d '{"jsonrpc":"2.0","method":"node_getL2Tips","params":[],"id":67}' \
+http://localhost:8080 | jq -r ".result.proven.number"
+```
+
+- Check the latest block : https://aztecscan.xyz/
