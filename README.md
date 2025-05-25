@@ -11,3 +11,16 @@
   
 ## Before Run Prepare these things
 ----------------------------
+
+- You must have Web 3 wallet like ( Metamask , Rabby wallet , OKX wallet etc.)
+- Put Sepoila ETH ( Testnet token ) in that wallet
+- " Sepolia " : RPC url
+- " Beacon " : RPC
+
+## Where you RUN ?
+---------------------------
+
+- In your own PC / Laptop
+- You can also buy One - Click Node :
+-- Mintair
+-- Easynode
