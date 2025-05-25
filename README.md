@@ -22,5 +22,5 @@
 
 - In your own PC / Laptop
 - You can also buy One - Click Node :
-- [Mintair](https://www.mintair.xyz/dashboard) 
-- [Easynode](https://app.easy-node.xyz/)
+      - [Mintair](https://www.mintair.xyz/dashboard) 
+      - [Easynode](https://app.easy-node.xyz/)
