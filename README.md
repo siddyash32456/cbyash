@@ -29,4 +29,6 @@
 ## 4. Run Node : 
 --------------------------
 # Step 1 : Update (Install) Packages :
-<tab><tab>codesudo apt-get update && sudo apt-get upgrade -y
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
