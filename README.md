@@ -74,3 +74,13 @@ echo 'export PATH="$HOME/.aztec/bin:$PATH"' >> ~/.bashrc
 
 source ~/.bashrc
 ```
+
+# Step 5 : Check Node Status :
+```bash
+aztec
+```
+
+# Step 6 : Install Aztec Alpha :
+```bash
+aztec-up alpha-testnet
+```
